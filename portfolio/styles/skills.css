@@ -1,0 +1,30 @@
+.skills_grid{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 24px;
+}
+
+/*Skill-card - карточка навыков*/
+.skill-card{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    padding: 24px;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+}
+
+.skill-card_img{
+    width: 96px;
+    height: 96px;
+    object-fit: contain;
+}
+
+.skill-card_name {
+    margin: 16px 0 8 px;
+}
+
+.skill-card_desc{
+    margin: 0;
+}
